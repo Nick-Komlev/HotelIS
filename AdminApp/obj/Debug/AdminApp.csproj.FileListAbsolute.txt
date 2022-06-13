@@ -1,0 +1,16 @@
+D:\Работы\HotelIS\AdminApp\bin\Debug\AdminApp.dll
+D:\Работы\HotelIS\AdminApp\bin\Debug\AdminApp.pdb
+D:\Работы\HotelIS\AdminApp\obj\Debug\AdminApp.csprojAssemblyReference.cache
+D:\Работы\HotelIS\AdminApp\obj\Debug\AdminApp.csproj.CoreCompileInputs.cache
+D:\Работы\HotelIS\AdminApp\obj\Debug\AdminApp.dll
+D:\Работы\HotelIS\AdminApp\obj\Debug\AdminApp.pdb
+D:\Работы\HotelIS\AdminApp\bin\Debug\Wrapper.dll
+D:\Работы\HotelIS\AdminApp\bin\Debug\Wrapper.pdb
+D:\Работы\HotelIS\AdminApp\obj\Debug\AdminApp.MainPage.resources
+D:\Работы\HotelIS\AdminApp\obj\Debug\AdminApp.csproj.GenerateResource.cache
+D:\Работы\HotelIS\AdminApp\obj\Debug\AdminApp.csproj.CopyComplete
+D:\Работы\HotelIS\AdminApp\obj\Debug\AdminApp.ObjectCreationMaster.resources
+D:\Работы\HotelIS\AdminApp\obj\Debug\AdminApp.StateChoiceDialogue.resources
+D:\Работы\HotelIS\AdminApp\obj\Debug\AdminApp.StateCreationMaster.resources
+D:\Работы\HotelIS\AdminApp\obj\Debug\AdminApp.SubprocessEditor.resources
+D:\Работы\HotelIS\AdminApp\obj\Debug\AdminApp.Controls.BPPage.resources

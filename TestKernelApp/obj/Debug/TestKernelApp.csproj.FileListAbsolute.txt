@@ -1,0 +1,10 @@
+D:\Работы\HotelIS\TestKernelApp\bin\Debug\TestKernelApp.exe.config
+D:\Работы\HotelIS\TestKernelApp\bin\Debug\TestKernelApp.exe
+D:\Работы\HotelIS\TestKernelApp\bin\Debug\TestKernelApp.pdb
+D:\Работы\HotelIS\TestKernelApp\obj\Debug\TestKernelApp.csprojAssemblyReference.cache
+D:\Работы\HotelIS\TestKernelApp\obj\Debug\TestKernelApp.csproj.CoreCompileInputs.cache
+D:\Работы\HotelIS\TestKernelApp\obj\Debug\TestKernelApp.exe
+D:\Работы\HotelIS\TestKernelApp\obj\Debug\TestKernelApp.pdb
+D:\Работы\HotelIS\TestKernelApp\bin\Debug\Wrapper.dll
+D:\Работы\HotelIS\TestKernelApp\bin\Debug\Wrapper.pdb
+D:\Работы\HotelIS\TestKernelApp\obj\Debug\TestKernelApp.csproj.CopyComplete

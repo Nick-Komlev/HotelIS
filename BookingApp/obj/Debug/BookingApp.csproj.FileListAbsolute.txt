@@ -1,0 +1,14 @@
+D:\Работы\HotelIS\BookingApp\bin\Debug\BookingApp.dll
+D:\Работы\HotelIS\BookingApp\bin\Debug\BookingApp.pdb
+D:\Работы\HotelIS\BookingApp\bin\Debug\Wrapper.dll
+D:\Работы\HotelIS\BookingApp\bin\Debug\Wrapper.pdb
+D:\Работы\HotelIS\BookingApp\obj\Debug\BookingApp.csprojAssemblyReference.cache
+D:\Работы\HotelIS\BookingApp\obj\Debug\BookingApp.csproj.CoreCompileInputs.cache
+D:\Работы\HotelIS\BookingApp\obj\Debug\BookingApp.csproj.CopyComplete
+D:\Работы\HotelIS\BookingApp\obj\Debug\BookingApp.dll
+D:\Работы\HotelIS\BookingApp\obj\Debug\BookingApp.pdb
+D:\Работы\HotelIS\BookingApp\obj\Debug\BookingApp.MainPage.resources
+D:\Работы\HotelIS\BookingApp\obj\Debug\BookingApp.csproj.GenerateResource.cache
+D:\Работы\HotelIS\BookingApp\obj\Debug\BookingApp.RequestRegistrationMaster.resources
+D:\Работы\HotelIS\BookingApp\obj\Debug\BookingApp.RequestDialogue.resources
+D:\Работы\HotelIS\BookingApp\obj\Debug\BookingApp.GuestChoiceDialogue.resources

@@ -1,0 +1,11 @@
+D:\Работы\HotelIS\ReceptionApp\bin\Debug\ReceptionApp.dll
+D:\Работы\HotelIS\ReceptionApp\bin\Debug\ReceptionApp.pdb
+D:\Работы\HotelIS\ReceptionApp\bin\Debug\Wrapper.dll
+D:\Работы\HotelIS\ReceptionApp\bin\Debug\Wrapper.pdb
+D:\Работы\HotelIS\ReceptionApp\obj\Debug\ReceptionApp.csprojAssemblyReference.cache
+D:\Работы\HotelIS\ReceptionApp\obj\Debug\ReceptionApp.MainPage.resources
+D:\Работы\HotelIS\ReceptionApp\obj\Debug\ReceptionApp.csproj.GenerateResource.cache
+D:\Работы\HotelIS\ReceptionApp\obj\Debug\ReceptionApp.csproj.CoreCompileInputs.cache
+D:\Работы\HotelIS\ReceptionApp\obj\Debug\ReceptionApp.csproj.CopyComplete
+D:\Работы\HotelIS\ReceptionApp\obj\Debug\ReceptionApp.dll
+D:\Работы\HotelIS\ReceptionApp\obj\Debug\ReceptionApp.pdb

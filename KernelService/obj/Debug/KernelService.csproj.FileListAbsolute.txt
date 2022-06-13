@@ -1,0 +1,7 @@
+D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe.config
+D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe
+D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.pdb
+D:\Работы\HotelIS\KernelService\obj\Debug\KernelService.csprojAssemblyReference.cache
+D:\Работы\HotelIS\KernelService\obj\Debug\KernelService.csproj.CoreCompileInputs.cache
+D:\Работы\HotelIS\KernelService\obj\Debug\KernelService.exe
+D:\Работы\HotelIS\KernelService\obj\Debug\KernelService.pdb

@@ -1,0 +1,63 @@
+﻿Выполняется установка сборки 'D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe
+   logfile = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.InstallLog
+Устанавливается служба KernelService...
+Создается исходный EventLog KernelService в журнале Application...
+Выполняется откат для сборки 'D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe
+   logfile = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.InstallLog
+Восстанавливается исходное состояние журнала событий для источника KernelService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: Security.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe
+   logfile = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.InstallLog
+Устанавливается служба KernelService...
+Служба KernelService успешно установлена.
+Создается исходный EventLog KernelService в журнале Application...
+Выполняется фиксация сборки 'D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe
+   logfile = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.InstallLog
+Выполняется удаление сборки 'D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe
+   logfile = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.InstallLog
+Выполняется удаление источника EventLog KernelService.
+Выполняется удаление службы KernelService из системы...
+Служба KernelService успешно удалена из системы.
+Выполняется установка сборки 'D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe
+   logfile = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.InstallLog
+Устанавливается служба KernelService...
+Создается исходный EventLog KernelService в журнале Application...
+Выполняется откат для сборки 'D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe
+   logfile = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.InstallLog
+Восстанавливается исходное состояние журнала событий для источника KernelService.
+Выполняется установка сборки 'D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe
+   logfile = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.InstallLog
+Устанавливается служба KernelService...
+Служба KernelService успешно установлена.
+Создается исходный EventLog KernelService в журнале Application...
+Выполняется фиксация сборки 'D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.exe
+   logfile = D:\Работы\HotelIS\KernelService\bin\Debug\KernelService.InstallLog

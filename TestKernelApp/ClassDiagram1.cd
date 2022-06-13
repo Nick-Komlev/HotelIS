@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestKernelApp.Program" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestKernelApp.ReceptionController">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABIAAAAAABAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ReceptionController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestKernelApp.RequestController">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAgAAAAAAA=</HashCode>
+      <FileName>RequestController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestKernelApp.DBConnector">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAABIAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBConnector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestKernelApp.Controller">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="TestKernelApp.Controller.RequestExecution" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAgAAAAAAAIAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestKernelApp.CashierController">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABIAAAAAABAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>CashierController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestKernelApp.BookingController">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABIAAAAAABAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>BookingController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestKernelApp.AsynchronousSocket">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAIAAAAAEAAAAAAAAIAAAgAAAAAAAAAAIQ=</HashCode>
+      <FileName>AsynchronousSocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestKernelApp.AdminController">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABIAAAAAABAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>AdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TestKernelApp.StateObject">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACCAEAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>AsynchronousSocket.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

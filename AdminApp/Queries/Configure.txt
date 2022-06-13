@@ -1,0 +1,187 @@
+﻿CREATE TABLE department
+   (
+	  id int IDENTITY (1,1) NOT NULL,
+	  name varchar (50) NOT NULL,
+	  description varchar (300),
+
+	  CONSTRAINT PK_department_id PRIMARY KEY CLUSTERED (id)
+   )
+;
+
+
+CREATE TABLE employee
+   (
+      id int IDENTITY (1,1) NOT NULL,
+	  FIO varchar (100) NOT NULL,
+	  login varchar (50) NOT NULL,
+	  dep_id int NOT NULL,
+
+	  CONSTRAINT PK_employee_id PRIMARY KEY CLUSTERED (id)
+   )
+;
+
+ALTER TABLE employee WITH CHECK ADD CONSTRAINT [FK_employee_department] FOREIGN KEY(dep_id)
+REFERENCES department (id)
+;
+
+
+CREATE TABLE process
+   (
+      id int IDENTITY (1,1) NOT NULL,
+	  name varchar (50) NOT NULL,
+	  description varchar (300),
+
+	  CONSTRAINT PK_process_id PRIMARY KEY CLUSTERED (id)
+   )
+;
+
+
+CREATE TABLE subprocess
+   (
+      id int IDENTITY (1,1) NOT NULL,
+	  name varchar (50) NOT NULL,
+	  process_id int NOT NULL,
+	  stage_number int NOT NULL,
+	  description varchar (300),
+
+	  CONSTRAINT PK_subprocess_id PRIMARY KEY CLUSTERED (id)
+   )
+;
+
+ALTER TABLE subprocess  WITH CHECK ADD CONSTRAINT [FK_subprocess_process] FOREIGN KEY(process_id)
+REFERENCES process (id)
+;
+
+
+CREATE TABLE sbprc_gateway
+   (
+      id int IDENTITY (1,1) NOT NULL,
+	  exit_sbprc_id int NOT NULL,
+	  enter_sbprc_id int NOT NULL, 
+
+	  CONSTRAINT PK_sbprc_gateway_id PRIMARY KEY CLUSTERED (id)
+   )
+;
+
+ALTER TABLE sbprc_gateway  WITH CHECK ADD CONSTRAINT [FK_sbprc_gateway_subprocess_exit] FOREIGN KEY(exit_sbprc_id)
+REFERENCES subprocess (id)
+;
+
+ALTER TABLE sbprc_gateway  WITH CHECK ADD CONSTRAINT [FK_sbprc_gateway_subprocess_enter] FOREIGN KEY(enter_sbprc_id)
+REFERENCES subprocess (id)
+;
+
+
+CREATE TABLE object
+   (
+      id int IDENTITY (1,1) NOT NULL,
+	  name varchar (50) NOT NULL,
+	  table_prefix varchar (50) NOT NULL,
+	  description varchar (300),
+
+	  CONSTRAINT PK_object_id PRIMARY KEY CLUSTERED (id)
+   )
+;
+
+
+CREATE TABLE state
+   (
+      id int IDENTITY (1,1) NOT NULL,
+	  name varchar (50) NOT NULL,
+
+	  CONSTRAINT PK_state_id PRIMARY KEY CLUSTERED (id)
+   )
+;
+
+
+CREATE TABLE state_enabled
+   (
+      id int IDENTITY (1,1) NOT NULL,
+	  obj_id int NOT NULL,
+	  state_id int NOT NULL, 
+	  description varchar (300),
+
+	  CONSTRAINT PK_state_enabled_id PRIMARY KEY CLUSTERED (id)
+   )
+;
+
+ALTER TABLE state_enabled  WITH CHECK ADD CONSTRAINT [FK_state_enabled_object] FOREIGN KEY(object_id)
+REFERENCES object (id)
+;
+
+ALTER TABLE state_enabled  WITH CHECK ADD CONSTRAINT [FK_state_enabled_state] FOREIGN KEY(state_id)
+REFERENCES state (id)
+;
+
+
+CREATE TABLE sbprc_membership
+   (
+      id int IDENTITY (1,1) NOT NULL,
+	  sbprc_id int NOT NULL,
+	  obj_id int NOT NULL, 
+
+	  CONSTRAINT PK_sbprc_membership_id PRIMARY KEY CLUSTERED (id)
+   )
+;
+
+ALTER TABLE sbprc_membership  WITH CHECK ADD CONSTRAINT [FK_sbprc_membership_subprocess] FOREIGN KEY(sbprc_id)
+REFERENCES subprocess (id)
+;
+
+ALTER TABLE sbprc_membership  WITH CHECK ADD CONSTRAINT [FK_sbprc_membership_object] FOREIGN KEY(obj_id)
+REFERENCES object (id)
+;
+
+
+CREATE TABLE sbprc_state_requirement
+   (
+      id int IDENTITY (1,1) NOT NULL,
+	  mbrship_id int NOT NULL,
+	  state_ena_id int NOT NULL, 
+
+	  CONSTRAINT PK_sbprc_state_requirement_id PRIMARY KEY CLUSTERED (id)
+   )
+;
+
+ALTER TABLE sbprc_state_requirement  WITH CHECK ADD CONSTRAINT [FK_sbprc_state_requirement_sbprc_membership] FOREIGN KEY(mbrship_id)
+REFERENCES sbprc_membership (id)
+;
+
+ALTER TABLE sbprc_state_requirement  WITH CHECK ADD CONSTRAINT [FK_sbprc_state_requirement_state_enabled] FOREIGN KEY(state_ena_id)
+REFERENCES state_enabled (id)
+;
+
+
+CREATE TABLE prc_execution
+   (
+      id int IDENTITY (1,1) NOT NULL,
+	  prc_id int NOT NULL,
+	  emp_id int NOT NULL,
+	  cur_stage int NOT NULL,
+
+	  CONSTRAINT PK_prc_execution_id PRIMARY KEY CLUSTERED (id)
+   )
+;
+
+ALTER TABLE prc_execution  WITH CHECK ADD CONSTRAINT [FK_prc_execution_process] FOREIGN KEY(prc_id)
+REFERENCES process (id)
+;
+
+ALTER TABLE prc_execution  WITH CHECK ADD CONSTRAINT [FK_prc_execution_employee] FOREIGN KEY(emp_id)
+REFERENCES employee (id)
+;
+
+
+CREATE TABLE state_value
+   (
+      id int IDENTITY (1,1) NOT NULL,
+	  obj_row_id int NOT NULL,
+	  state_ena_id int NOT NULL,
+
+	  CONSTRAINT PK_state_value_id PRIMARY KEY CLUSTERED (id)
+   )
+;
+
+ALTER TABLE state_value  WITH CHECK ADD CONSTRAINT [FK_state_value_state_enabled] FOREIGN KEY(state_ena_id)
+REFERENCES state_enabled (id)
+;

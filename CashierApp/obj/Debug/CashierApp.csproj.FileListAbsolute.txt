@@ -1,0 +1,11 @@
+D:\Работы\HotelIS\CashierApp\bin\Debug\CashierApp.dll
+D:\Работы\HotelIS\CashierApp\bin\Debug\CashierApp.pdb
+D:\Работы\HotelIS\CashierApp\bin\Debug\Wrapper.dll
+D:\Работы\HotelIS\CashierApp\bin\Debug\Wrapper.pdb
+D:\Работы\HotelIS\CashierApp\obj\Debug\CashierApp.MainPage.resources
+D:\Работы\HotelIS\CashierApp\obj\Debug\CashierApp.csproj.GenerateResource.cache
+D:\Работы\HotelIS\CashierApp\obj\Debug\CashierApp.csproj.CoreCompileInputs.cache
+D:\Работы\HotelIS\CashierApp\obj\Debug\CashierApp.csproj.CopyComplete
+D:\Работы\HotelIS\CashierApp\obj\Debug\CashierApp.dll
+D:\Работы\HotelIS\CashierApp\obj\Debug\CashierApp.pdb
+D:\Работы\HotelIS\CashierApp\obj\Debug\CashierApp.csprojAssemblyReference.cache

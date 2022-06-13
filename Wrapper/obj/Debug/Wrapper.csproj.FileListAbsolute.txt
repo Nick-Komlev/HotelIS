@@ -1,0 +1,8 @@
+D:\Работы\HotelIS\Wrapper\bin\Debug\Wrapper.dll
+D:\Работы\HotelIS\Wrapper\bin\Debug\Wrapper.pdb
+D:\Работы\HotelIS\Wrapper\obj\Debug\Wrapper.csprojAssemblyReference.cache
+D:\Работы\HotelIS\Wrapper\obj\Debug\Wrapper.csproj.CoreCompileInputs.cache
+D:\Работы\HotelIS\Wrapper\obj\Debug\Wrapper.dll
+D:\Работы\HotelIS\Wrapper\obj\Debug\Wrapper.pdb
+D:\Работы\HotelIS\Wrapper\obj\Debug\Wrapper.BSubprocess.resources
+D:\Работы\HotelIS\Wrapper\obj\Debug\Wrapper.csproj.GenerateResource.cache
